@@ -4,7 +4,7 @@
   "description": "Drag and drop directives for Angular using native HTML5 API.",
   "main": "index.js",
   "scripts": {
-    "install": "bower install",
+    "prepublish": "bower install",
     "test": "./node_modules/karma/bin/karma start --single-run"
   },
   "repository": {
@@ -21,6 +21,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/neoziro/angular-draganddrop/issues"
+  },
+  "peerDependencies": {
+    "angular": ">=1.2.0"
   },
   "devDependencies": {
     "chai": "^1.9.1",
